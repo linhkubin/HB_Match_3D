@@ -9,7 +9,7 @@ public class LevelManager : Singleton<LevelManager>
 
     }
 
-    public void OnStart()
+    public void OnDespawn()
     {
 
     }
@@ -34,7 +34,12 @@ public class LevelManager : Singleton<LevelManager>
 
     }
 
-    public void OnDone(Item item)
+    public void CollectItem(Item item)
+    {
+
+    }
+
+    public void OnNextLevel()
     {
 
     }
